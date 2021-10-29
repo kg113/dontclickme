@@ -1,0 +1,79 @@
+
+<html>
+    <head>
+        <title>uwu</title>
+        <style type="text/css">
+            @keyframes text {
+                0% {
+                    left: 0;
+                    top: 0;
+                }
+    
+                25% {
+                    left: 100%;
+                    top: 0;
+                    transform: translateX(-100%);
+                }
+    
+                50% {
+                    left: 100%;
+                    top: 100%;
+                    transform: translate(-100%, -100%);
+                }
+    
+                75% {
+                    left: 0;
+                    top: 100%;
+                    transform: translateY(-100%);
+                }
+    
+                100% {
+                    left: 0;
+                    top: 0;
+                }
+            }
+    
+            @keyframes bg {
+                0% {
+                    background-color: #ff0000;
+                }
+    
+                25% {
+                    background-color: #7fff00
+                }
+    
+                50% {
+                    background-color: #00ffff;
+                }
+    
+                75% {
+                    background-color: #7f00ff;
+                }
+    
+                100% {
+                    background-color: #ff0000;
+                }
+            }
+    
+            @keyframes center {
+                from {
+                    transform: rotate(0deg);
+                }
+    
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body
+        style="animation-name: bg; animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: linear;">
+        <p align="center"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><button
+            style="background-color: #ff0000; border-width: 0; font-size: 96; animation-name: center,bg; animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: linear;">
+            stop it </button></p>
+        <button
+            style="font-size: 50; font-weight: bolder; position: fixed; animation-name: text; animation-duration: 5s; animation-iteration-count: infinite;"onclick="location.href= './last.html'">
+            Don't<br>click<br>this!!
+        </button>
+    </body>
+    </html>
