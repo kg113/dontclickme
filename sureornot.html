@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor="red">
+        <h1> It really wasting ur time</h1>
+            <label> Are u sure continue ???(yes/no)<br></label>
+            <input type="text" id="test" /><button onclick="btn001()" style="background-color: #ff0000; border-width: 1">Submita</button>
+            <p id  = "message001"></p>
+        <script>
+            function btn001() {
+                var text001;
+                var colors001 = test.value;
+                if (colors001 == 'yes'){
+                    window.open("./none.html","_self")
+                }else if (colors001 == 'no'){
+                    window.open("https://www.google.com/","_self") 
+                }else {
+                    text001 = 'ys or no ar      u gay? '
+                    document.getElementById('message001').innerHTML = text001
+                }
+            }
+
+       </script>
+
+
+    </body>
+</html>
